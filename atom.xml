@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jinhao11.github.io</id>
     <title>Gridea</title>
-    <updated>2021-02-16T07:11:05.748Z</updated>
+    <updated>2021-05-04T12:56:55.866Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jinhao11.github.io"/>
     <link rel="self" href="https://jinhao11.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://jinhao11.github.io/images/avatar.png</logo>
     <icon>https://jinhao11.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[【练手项目】模拟实现ZK核心功能-核心功能说明]]></title>
+        <id>https://jinhao11.github.io/post/lian-shou-xiang-mu-mo-ni-shi-xian-zk-he-xin-gong-neng-he-xin-gong-neng-shuo-ming/</id>
+        <link href="https://jinhao11.github.io/post/lian-shou-xiang-mu-mo-ni-shi-xian-zk-he-xin-gong-neng-he-xin-gong-neng-shuo-ming/">
+        </link>
+        <updated>2021-02-16T08:12:48.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="zk核心功能描述">ZK核心功能描述</h1>
+<h1 id="实现方案与设计思路">实现方案与设计思路</h1>
+<h2 id="功能点1">功能点1</h2>
+<h2 id="设计实现1">设计实现1</h2>
+<h1 id="zk源码实现比较">ZK源码实现比较</h1>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[测试]]></title>
         <id>https://jinhao11.github.io/post/ce-shi/</id>

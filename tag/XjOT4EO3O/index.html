@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>测试 | Gridea</title>
+<title>技术 | Gridea</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,21 +12,13 @@
 <link rel="stylesheet" href="https://jinhao11.github.io/styles/main.css">
 
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="感谢大家
-" />
-    <meta name="keywords" content="技术" />
+    <meta name="description" content="The programer is a poet">
   </head>
   <body>
     <div id="app" class="main">
@@ -96,34 +88,28 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">测试</h2>
-            <div class="post-date">2021-02-16</div>
-            
-            <div class="post-content" v-pre>
-              <p>感谢大家</p>
-
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://jinhao11.github.io/tag/XjOT4EO3O/" class="tag">
-                    技术
-                  </a>
-                
+          <h2 class="current-tag">标签: 技术</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://jinhao11.github.io/post/ce-shi/">
+                  <h2 class="post-title">测试</h2>
+                </a>
+                <div class="post-date">
+                  2021-02-16
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
               </div>
-            
-            
-
-            
               
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
+            </article>
+          
 
-              
-            
-
-          </div>
+          <div class="pagination-container">
+  
+  
+</div>
 
         </div>
       </div>
@@ -144,29 +130,6 @@ var app = new Vue({
 </script>
 
 
-
-
-
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-
-      var gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',
-        owner: '',
-        admin: [''],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
 
 
 
